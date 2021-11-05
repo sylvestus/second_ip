@@ -1,3 +1,14 @@
 span{
     background-color: chocolate;
 }
+.fist_div img{
+    border-radius: 5px;
+
+}
+.first_div .nav_bar{
+    float: right;
+}
+.first_div .nav_bar li{
+    display: inline;
+    padding: 50px;
+}
