@@ -1,9 +1,9 @@
 body{
     width: 100%;
     height: auto;
-    
-    
+    background-color: rgb(212, 212, 248);
     margin: 0px;
+    
 }
 span{
   color: chocolate;
@@ -11,11 +11,13 @@ span{
 .first_div{
     height: auto;
     width: 100%;
-    
     background-image: url("images/image2.png");
     background-size: cover;
     margin: 0px;
 
+}
+.first_div{
+    
 }
 .fist_div img{
     border-radius: 5px;
@@ -40,4 +42,20 @@ span{
   font-size: medium;
   background-color: chocolate;
   color: white;
+}
+.services{
+    margin-top: 0px;
+    
+}
+.services .list{
+   display: flex;
+   justify-content: space-around;
+
+}
+.services .list li{
+    align-content: center;list-style: none;
+}
+.services .list>li{
+    padding: 20px;
+    background-color: rgb(253, 251, 251);
 }
