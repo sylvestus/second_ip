@@ -113,3 +113,21 @@ label{
     
     
 }
+
+
+ .book_now{
+    background-image: url("images/image8.png");
+     background-size: cover;
+     padding: 200px;
+     color: white;
+     font-size: x-large;
+     
+ }
+ .footer_txt{
+     height: auto;
+     width: 100%;
+     background-color: black;
+     color: white;
+     font-size: small;
+     padding: 10px;
+ }
