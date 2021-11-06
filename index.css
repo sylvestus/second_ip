@@ -4,6 +4,7 @@ body{
     background-color: rgb(212, 212, 248);
     margin: 0px;
     
+    
 }
 span{
   color: chocolate;
@@ -99,7 +100,7 @@ label{
     flex-wrap: wrap-reverse;
     padding: 20px;
      margin-bottom: 30px;
-     
+     overflow: hidden;
       
 }
 .menu .menu_list li{
@@ -109,6 +110,7 @@ label{
    
     padding: 20px;
     margin: 10px 75px 10px 80px;
+    overflow: hidden;
     
     
     
@@ -116,16 +118,19 @@ label{
 
 
  .book_now{
+
     background-image: url("images/image8.png");
      background-size: cover;
      padding: 200px;
+     margin: 0px;
      color: white;
      font-size: x-large;
      
  }
  .footer_txt{
+     overflow: hidden;
      height: auto;
-     width: 100%;
+    
      background-color: black;
      color: white;
      font-size: small;
