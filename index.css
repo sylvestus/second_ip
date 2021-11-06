@@ -53,9 +53,37 @@ span{
 
 }
 .services .list li{
-    align-content: center;list-style: none;
+    align-content: center;
+    list-style: none;
 }
 .services .list>li{
-    padding: 20px;
+    padding: 30px;
     background-color: rgb(253, 251, 251);
 }
+
+.reviews{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.reviews li img{
+    width: 90%;
+    
+
+}
+.reviews li{
+    
+    color: white;
+    list-style: none;
+    display: flex;
+    width: 50%;
+  
+}
+.reviews  #rev_txt{
+  line-height: 20px;
+   align-content: center;
+   padding: 30px;
+ }
+
+ 
