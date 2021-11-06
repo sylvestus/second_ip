@@ -8,6 +8,9 @@ body{
 span{
   color: chocolate;
 }
+label{
+    background-color: rgb(212, 212, 248) ;
+}
 .first_div{
     height: auto;
     width: 100%;
@@ -85,5 +88,28 @@ span{
    align-content: center;
    padding: 30px;
  }
-
- 
+.menu{
+    height: auto;
+    width: 100%;
+}
+.menu .menu_list{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    padding: 20px;
+     margin-bottom: 30px;
+     
+      
+}
+.menu .menu_list li{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+   
+    padding: 20px;
+    margin: 10px 75px 10px 80px;
+    
+    
+    
+}
