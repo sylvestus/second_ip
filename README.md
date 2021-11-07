@@ -5,7 +5,7 @@
 ## Description
 This is a e-commerce ui developed for a lettuce eat restaurant consumption
 ## Setup/Installation Requirements
-This site is hosted in gh-pages on ..............url
+This site is hosted in gh-pages on https://sylvestus.github.io/second_ip/  url
 
 ## Known Bugs
 This being a simple ui it has no known bugs though updates are always being made as per user feedback to maximize on productivity
