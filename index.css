@@ -6,11 +6,19 @@ body{
     
     
 }
+#numbers{
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+    background-color: chocolate;
+    border-radius:50%;
+    color: white;
+}
 span{
   color: chocolate;
 }
 label{
-    background-color: rgb(212, 212, 248) ;
+    background-color: rgb(251, 251, 255) ;
 }
 .first_div{
     height: auto;
