@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 # first_ip
 # Buger palace website
+=======
+# second_ip
+# Moringa lettuce website
+>>>>>>> 7568a31100ba221f2c435a952db786f0009dfa5a
 #### This is a e commerce sice for our letuce eat restaurant, 31 oct 2021
 #### By ** sylvestus sigei **
 ## Description
