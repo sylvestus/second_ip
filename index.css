@@ -7,15 +7,20 @@ body{
     
 }
 #numbers{
-    height: 30px;
-    width: 30px;
-    padding: 6px;
-    background-color: chocolate;
+    background-color: #F0932A;
     border-radius:50%;
     color: white;
+    padding: 18px;
+    font-size: large;
+}
+button{
+    padding: 10px;
+    background-color: #F0932A; 
+    border: none;
+
 }
 span{
-  color: chocolate;
+  color: #F0932A;
 }
 label{
     background-color: rgb(251, 251, 255) ;
@@ -57,6 +62,7 @@ label{
 }
 .services{
     margin-top: 0px;
+    background-color: #e5e5e5;
     
 }
 .services .list{
@@ -70,14 +76,14 @@ label{
 }
 .services .list>li{
     padding: 30px;
-    background-color: rgb(253, 251, 251);
+    background-color: #ffffff;
 }
 
 .reviews{
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: #000000;
 }
 .reviews li img{
     width: 90%;
@@ -100,6 +106,7 @@ label{
 .menu{
     height: auto;
     width: 100%;
+    background-color: #E5E5E5;
 }
 .menu .menu_list{
     
