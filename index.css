@@ -1,4 +1,5 @@
 body{
+    overflow-x: hidden;
     width: 100%;
     height: auto;
     background-color: #e5e5e5;
@@ -108,27 +109,42 @@ label{
     width: 100%;
     background-color: #E5E5E5;
 }
+
 .menu .menu_list{
-    
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap-reverse;
-    padding: 20px;
-     margin-bottom: 30px;
+    justify-content: space-around;
+   flex-wrap: wrap;
+    padding:1%;
+    margin-bottom: 30px;
      overflow: hidden;
+     margin-left: 2%;
       
 }
+.menu .menu_list #list{
+    margin-left: 4%;
+}
 .menu .menu_list li{
+    width: 20%;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
-   
-    padding: 20px;
+    padding: 3%;
+    padding-right: 8%;
+    padding-bottom: 1%;
     margin: 10px 75px 10px 80px;
-    overflow: hidden;
+   
     
     
     
+}
+.menu .menu_list>li img{
+    padding: 10px;
+    height: 80%;
+    width: 90%;
+}.menu .menu_list .break{
+  flex-basis: 100%;
+  height: 0;
 }
 
 
