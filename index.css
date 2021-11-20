@@ -34,9 +34,7 @@ label{
     margin: 0px;
 
 }
-.first_div{
-    
-}
+
 .fist_div img{
     border-radius: 5px;
 
@@ -138,7 +136,7 @@ label{
     padding-right: 8%;
     padding-bottom: 1%;
     margin: 10px 75px 10px 80px;
-     
+     overflow: hidden;
 }
 
 .menu .menu_list .row2 li{
@@ -151,6 +149,7 @@ label{
 
     padding-bottom: 1%;
     margin: 10px 75px 10px 80px;
+    overflow: hidden;
 }
 
 .menu .menu_list .row1>li img{
