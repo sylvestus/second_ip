@@ -121,31 +121,60 @@ label{
      margin-left: 2%;
       
 }
-.menu .menu_list #list{
-    margin-left: 4%;
-}
-.menu .menu_list li{
-    width: 20%;
-    background-color: white;
+.menu .menu_list .row1, .row2{
+    width: 100%;
+    padding: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    position: relative;
+    background-color: red;
+}
+.menu .menu_list .row1 li{
+    display: flex;
+    width: 30%;
+    background-color: white;
+    list-style: none;
     padding: 3%;
     padding-right: 8%;
     padding-bottom: 1%;
     margin: 10px 75px 10px 80px;
-   
-    
-    
-    
+     
 }
-.menu .menu_list>li img{
+
+.menu .menu_list .row2 li{
+    display: flex;
+    width: 35%;
+    background-color: white;
+    list-style: none;
+    padding: 3%;
+   margin-left: 10%;
+
+    padding-bottom: 1%;
+    margin: 10px 75px 10px 80px;
+}
+
+.menu .menu_list .row1>li img{
+    padding: 0%;
+    margin: 0%;
+    height: 70%;
+    width: 80%;
+    float: left;
+    display: inline;
+}
+
+.menu .menu_list .row1>li center{
+float: right;
+}
+
+.menu .menu_list .row2>li img{
     padding: 10px;
-    height: 80%;
-    width: 90%;
-}.menu .menu_list .break{
-  flex-basis: 100%;
-  height: 0;
+    height: 70%;
+    width: 80%;
+    margin: 0px;
+    padding: 0px;
 }
+
+
 
 
  .book_now{
