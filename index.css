@@ -127,7 +127,7 @@ label{
     display: flex;
     justify-content: space-around;
     position: relative;
-    background-color: red;
+   
 }
 .menu .menu_list .row1 li{
     display: flex;
